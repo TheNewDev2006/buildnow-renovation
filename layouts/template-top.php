@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--<< Header Area >>-->
+
+<head>
+    <?php
+    $siteTitle = 'Buildnow Renovation';
+    $siteDescription = 'Buildnow Renovation transforms homes with custom remodels, additions, and full-service renovation solutions.';
+    ?>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="wowtheme7">
+    <meta name="description" content="<?php echo htmlspecialchars($siteDescription, ENT_QUOTES, 'UTF-8'); ?>">
+    <!-- ======== Page title ============ -->
+    <title><?php echo htmlspecialchars($siteTitle, ENT_QUOTES, 'UTF-8'); ?></title>
+    <?php include 'head-css.php'; ?>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="spinner-wrap">
+            <div class="preloader-logo">
+                <img src="assets/img/preloader.svg" alt="" class="img-fluid">
+            </div>
+            <div class="spinner"></div>
+        </div>
+    </div>
+
+    <!-- Back To Top Start -->
+    <button id="back-top" class="back-to-top">
+        <i class="fa-regular fa-arrow-up"></i>
+    </button>
+
+    <!-- MouseCursor Start -->
+    <div class="mouseCursor cursor-outer"></div>
+    <div class="mouseCursor cursor-inner"></div>
