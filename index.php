@@ -1114,7 +1114,6 @@
 
 <?php include 'layouts/vendor-script.php' ?>
 
-<script src="assets/js/cynix-url-params.js"></script>
 </body>
 
 </html>
