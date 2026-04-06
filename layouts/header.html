@@ -1,10 +1,10 @@
 <?php
 // Include personalization
-require_once dirname(__FILE__) . '/../config/Personalization.php';
+require_once dirname(__FILE__) . '/../config/Personalization.html';
 
 $currentPage = basename($_SERVER['PHP_SELF'] ?? '');
-$isMainHome = ($currentPage !== 'index-7.php');
-$baseUrl = $isMainHome ? 'index.php' : 'index-7.php';
+$isMainHome = ($currentPage !== 'index-7.html');
+$baseUrl = $isMainHome ? 'index.html' : 'index-7.html';
 
 $businessName = Personalization::get('business_name');
 $businessInitials = Personalization::getBusinessInitials();

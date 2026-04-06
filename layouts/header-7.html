@@ -1,9 +1,9 @@
 <?php
 // Include personalization
-require_once dirname(__FILE__) . '/../config/Personalization.php';
+require_once dirname(__FILE__) . '/../config/Personalization.html';
 
 $currentPage = basename($_SERVER['PHP_SELF'] ?? '');
-$baseUrl = 'index.php';
+$baseUrl = 'index.html';
 
 $businessName = Personalization::get('business_name');
 $businessInitials = Personalization::getBusinessInitials();
